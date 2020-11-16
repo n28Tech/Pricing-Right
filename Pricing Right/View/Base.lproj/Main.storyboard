@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gVF-Pn-iLz">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Pricing Right-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Pricing_Right" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="128" translatesAutoresizingMaskIntoConstraints="NO" id="rlT-jH-8UD">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="64" translatesAutoresizingMaskIntoConstraints="NO" id="1JB-NZ-UO7">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="581.5"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="nwC-a2-YLi" userLabel="Information-label Stack View">
+                                                <rect key="frame" x="0.0" y="0.0" width="395" height="286"/>
+                                                <subviews>
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Add Business Sector" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fot-4j-Ldj" userLabel="Sector">
+                                                        <rect key="frame" x="0.0" y="0.0" width="395" height="34"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                    </textField>
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Add City where Business is Located" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hz5-xw-SL2" userLabel="City">
+                                                        <rect key="frame" x="0.0" y="42" width="395" height="34"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                    </textField>
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Add State where business is located" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Svy-fb-hGn" userLabel="State">
+                                                        <rect key="frame" x="0.0" y="84" width="395" height="34"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                    </textField>
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Add number of years experience you have in the industry" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Msx-9b-h92" userLabel="Personal Experience">
+                                                        <rect key="frame" x="0.0" y="126" width="395" height="34"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                    </textField>
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Add number of Years yoiu have been in Business" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vV2-0o-VCS" userLabel="Years in Business">
+                                                        <rect key="frame" x="0.0" y="168" width="395" height="34"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                    </textField>
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Add your Geneder" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Y5l-Rg-A0g" userLabel="Gender">
+                                                        <rect key="frame" x="0.0" y="210" width="395" height="34"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                    </textField>
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Add your ethnicity" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GnK-x1-pSZ" userLabel="Ethnicity">
+                                                        <rect key="frame" x="0.0" y="252" width="395" height="34"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                    </textField>
+                                                </subviews>
+                                            </stackView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="9rb-bH-PKH" userLabel="Business Description">
+                                                <rect key="frame" x="0.0" y="350" width="414" height="231.5"/>
+                                                <color key="backgroundColor" red="0.96078431369999995" green="0.94901960780000005" blue="0.81568627449999997" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" systemColor="labelColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="9rb-bH-PKH" firstAttribute="trailing" secondItem="1JB-NZ-UO7" secondAttribute="trailingMargin" id="oAj-Ag-dgc"/>
+                                        </constraints>
+                                    </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mio-7w-R2f">
+                                        <rect key="frame" x="0.0" y="744" width="414" height="30"/>
+                                        <state key="normal" title="ADD Business to Database">
+                                            <color key="titleColor" red="0.96078431372549022" green="0.94901960784313721" blue="0.81568627450980391" alpha="0.84705882352941175" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="addToDataBasePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1LM-2p-2Nx"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="1JB-NZ-UO7" secondAttribute="bottom" constant="192.5" id="NuU-T3-hAD"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.53333333333333333" green="0.60784313725490191" blue="0.45098039215686275" alpha="0.84705882352941175" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="rlT-jH-8UD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="8KR-TM-yXf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="rlT-jH-8UD" secondAttribute="bottom" id="IsQ-ao-12W"/>
+                            <constraint firstItem="rlT-jH-8UD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="XAL-WA-8Yr"/>
+                            <constraint firstItem="rlT-jH-8UD" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="zRA-Jr-t4j"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Pricing Right" id="J0Z-Qt-Uio"/>
+                    <connections>
+                        <outlet property="businessDescriptionTextField" destination="9rb-bH-PKH" id="U1Q-jM-X3B"/>
+                        <outlet property="city" destination="hz5-xw-SL2" id="P4a-kc-wgc"/>
+                        <outlet property="ethnicitytextField" destination="GnK-x1-pSZ" id="7Ym-lI-YjO"/>
+                        <outlet property="genderTextField" destination="Y5l-Rg-A0g" id="KJC-bv-rGS"/>
+                        <outlet property="personalExperienceTextField" destination="Msx-9b-h92" id="SXA-jd-caR"/>
+                        <outlet property="sector" destination="fot-4j-Ldj" id="kvc-c2-lbX"/>
+                        <outlet property="state" destination="Svy-fb-hGn" id="5rh-Bv-nKg"/>
+                        <outlet property="yearsInBusinessTextField" destination="vV2-0o-VCS" id="49c-RB-oGr"/>
+                        <segue destination="LNO-ml-Zm5" kind="show" identifier="clientSegue" id="Vb5-ja-D3t"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="879.71014492753625" y="53.571428571428569"/>
+        </scene>
+        <!--Clients-->
+        <scene sceneID="Ghn-et-hoY">
+            <objects>
+                <tableViewController id="LNO-ml-Zm5" customClass="ServicesTableViewController" customModule="Pricing_Right" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="bcN-Rp-Pjg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="elN-A6-dm8">
+                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="elN-A6-dm8" id="kd2-Fd-OoU">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="LNO-ml-Zm5" id="Yke-Cd-LNl"/>
+                            <outlet property="delegate" destination="LNO-ml-Zm5" id="Tgg-cc-5Ax"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Clients" id="GSn-b5-Gzg">
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="nTU-Wc-kc4">
+                            <imageReference key="image" image="dollarsign.circle" catalog="system" symbolScale="large"/>
+                            <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e8K-DK-Sqo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1906" y="19"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="it2-d6-5qr">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="gVF-Pn-iLz" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="mVY-Hq-Yzf">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.53333333329999999" green="0.60784313729999995" blue="0.45098039220000002" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="0.53333333329999999" green="0.60784313729999995" blue="0.45098039220000002" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <color key="barTintColor" red="0.53333333329999999" green="0.60784313729999995" blue="0.45098039220000002" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="OneDance-Bold" family="One Dance" pointSize="20"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="7iK-nc-AFK"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="siy-Gr-oF2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-30.434782608695656" y="53.571428571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="dollarsign.circle" catalog="system" width="128" height="121"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF6006115154D44E5FB5F3D7 /* Pods_Pricing_Right.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1882F94493044347354DB2B5 /* Pods_Pricing_Right.framework */; };
 		F61C283A2560C48900A75125 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61C28392560C48900A75125 /* AppDelegate.swift */; };
 		F61C283C2560C48900A75125 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61C283B2560C48900A75125 /* SceneDelegate.swift */; };
 		F61C283E2560C48900A75125 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61C283D2560C48900A75125 /* ViewController.swift */; };
@@ -14,9 +15,17 @@
 		F61C28442560C48900A75125 /* Pricing_Right.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F61C28422560C48900A75125 /* Pricing_Right.xcdatamodeld */; };
 		F61C28462560C48B00A75125 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F61C28452560C48B00A75125 /* Assets.xcassets */; };
 		F61C28492560C48B00A75125 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F61C28472560C48B00A75125 /* LaunchScreen.storyboard */; };
+		F61C2857256183D100A75125 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61C2856256183D100A75125 /* Company.swift */; };
+		F61C285B25619A5F00A75125 /*  Service_Price.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61C285A25619A5F00A75125 /*  Service_Price.swift */; };
+		F61C28862561BD0D00A75125 /* One_dance.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F61C28842561BCFD00A75125 /* One_dance.ttf */; };
+		F61C28892561D17400A75125 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61C28882561D17400A75125 /* Client.swift */; };
+		F61C288C2561DE8F00A75125 /* Global Variables.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61C288B2561DE8F00A75125 /* Global Variables.swift */; };
+		F61C28902561FA8300A75125 /* ServicesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61C288F2561FA8300A75125 /* ServicesTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1882F94493044347354DB2B5 /* Pods_Pricing_Right.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pricing_Right.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F18FF66667CCAE2B97684CC0 /* Pods-Pricing Right.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pricing Right.debug.xcconfig"; path = "Target Support Files/Pods-Pricing Right/Pods-Pricing Right.debug.xcconfig"; sourceTree = "<group>"; };
 		F61C28362560C48900A75125 /* Pricing Right.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pricing Right.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F61C28392560C48900A75125 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F61C283B2560C48900A75125 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +35,13 @@
 		F61C28452560C48B00A75125 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F61C28482560C48B00A75125 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F61C284A2560C48B00A75125 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F61C2856256183D100A75125 /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
+		F61C285A25619A5F00A75125 /*  Service_Price.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " Service_Price.swift"; sourceTree = "<group>"; };
+		F61C28842561BCFD00A75125 /* One_dance.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = One_dance.ttf; sourceTree = "<group>"; };
+		F61C28882561D17400A75125 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		F61C288B2561DE8F00A75125 /* Global Variables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Global Variables.swift"; sourceTree = "<group>"; };
+		F61C288F2561FA8300A75125 /* ServicesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesTableViewController.swift; sourceTree = "<group>"; };
+		F973797559A54460BB1E488C /* Pods-Pricing Right.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pricing Right.release.xcconfig"; path = "Target Support Files/Pods-Pricing Right/Pods-Pricing Right.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +49,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF6006115154D44E5FB5F3D7 /* Pods_Pricing_Right.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6EB7AE337DD1A6CD31C8D42C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F18FF66667CCAE2B97684CC0 /* Pods-Pricing Right.debug.xcconfig */,
+				F973797559A54460BB1E488C /* Pods-Pricing Right.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		826CF6CDEE08153F78C4EE9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1882F94493044347354DB2B5 /* Pods_Pricing_Right.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F61C282D2560C48900A75125 = {
 			isa = PBXGroup;
 			children = (
 				F61C28382560C48900A75125 /* Pricing Right */,
 				F61C28372560C48900A75125 /* Products */,
+				6EB7AE337DD1A6CD31C8D42C /* Pods */,
+				826CF6CDEE08153F78C4EE9D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +94,46 @@
 		F61C28382560C48900A75125 /* Pricing Right */ = {
 			isa = PBXGroup;
 			children = (
+				F61C2892256204F300A75125 /* View */,
 				F61C28392560C48900A75125 /* AppDelegate.swift */,
+				F61C28552561831400A75125 /* Model */,
 				F61C283B2560C48900A75125 /* SceneDelegate.swift */,
-				F61C283D2560C48900A75125 /* ViewController.swift */,
-				F61C283F2560C48900A75125 /* Main.storyboard */,
+				F61C288E2561F9EA00A75125 /* Controller */,
 				F61C28452560C48B00A75125 /* Assets.xcassets */,
 				F61C28472560C48B00A75125 /* LaunchScreen.storyboard */,
 				F61C284A2560C48B00A75125 /* Info.plist */,
 				F61C28422560C48900A75125 /* Pricing_Right.xcdatamodeld */,
+				F61C28842561BCFD00A75125 /* One_dance.ttf */,
 			);
 			path = "Pricing Right";
+			sourceTree = "<group>";
+		};
+		F61C28552561831400A75125 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F61C2856256183D100A75125 /* Company.swift */,
+				F61C285A25619A5F00A75125 /*  Service_Price.swift */,
+				F61C28882561D17400A75125 /* Client.swift */,
+				F61C288B2561DE8F00A75125 /* Global Variables.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F61C288E2561F9EA00A75125 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F61C283D2560C48900A75125 /* ViewController.swift */,
+				F61C288F2561FA8300A75125 /* ServicesTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F61C2892256204F300A75125 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F61C283F2560C48900A75125 /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +143,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F61C284D2560C48B00A75125 /* Build configuration list for PBXNativeTarget "Pricing Right" */;
 			buildPhases = (
+				E50294BD1DFECBDF46B2C6E5 /* [CP] Check Pods Manifest.lock */,
 				F61C28322560C48900A75125 /* Sources */,
 				F61C28332560C48900A75125 /* Frameworks */,
 				F61C28342560C48900A75125 /* Resources */,
+				052D4EDBAC645ACA4856DB7F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F61C28862561BD0D00A75125 /* One_dance.ttf in Resources */,
 				F61C28492560C48B00A75125 /* LaunchScreen.storyboard in Resources */,
 				F61C28462560C48B00A75125 /* Assets.xcassets in Resources */,
 				F61C28412560C48900A75125 /* Main.storyboard in Resources */,
@@ -135,14 +204,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		052D4EDBAC645ACA4856DB7F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pricing Right/Pods-Pricing Right-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pricing Right/Pods-Pricing Right-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pricing Right/Pods-Pricing Right-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E50294BD1DFECBDF46B2C6E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pricing Right-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F61C28322560C48900A75125 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F61C283E2560C48900A75125 /* ViewController.swift in Sources */,
+				F61C28892561D17400A75125 /* Client.swift in Sources */,
 				F61C283A2560C48900A75125 /* AppDelegate.swift in Sources */,
+				F61C288C2561DE8F00A75125 /* Global Variables.swift in Sources */,
 				F61C283C2560C48900A75125 /* SceneDelegate.swift in Sources */,
+				F61C2857256183D100A75125 /* Company.swift in Sources */,
+				F61C285B25619A5F00A75125 /*  Service_Price.swift in Sources */,
+				F61C28902561FA8300A75125 /* ServicesTableViewController.swift in Sources */,
 				F61C28442560C48900A75125 /* Pricing_Right.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +403,7 @@
 		};
 		F61C284E2560C48B00A75125 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F18FF66667CCAE2B97684CC0 /* Pods-Pricing Right.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -305,6 +422,7 @@
 		};
 		F61C284F2560C48B00A75125 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F973797559A54460BB1E488C /* Pods-Pricing Right.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
